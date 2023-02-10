@@ -36,7 +36,7 @@ public class Main {
         List<String> names = Arrays.asList("Jack", "Connor", "Harry", "George", "Samuel", "John");
         List<String> families = Arrays.asList("Evans", "Young", "Harris", "Wilson", "Davies", "Adamson", "Brown");
         List<Person> persons = new ArrayList<>();
-        for (long i = 0; i < 1000; i++) {
+        for (long i = 0; i < 10_000_000L; i++) {
             persons.add(new Person(
                     names.get(new Random().nextInt(names.size())),
                     families.get(new Random().nextInt(families.size())),
